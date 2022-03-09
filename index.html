@@ -7,7 +7,12 @@
 </head>
 
 <body>
-    <canvas></canvas>
+  <script type="module">
+    import init from "./gkmap.js";
+    window.addEventListener("load", () => {
+      init();
+    });
+  </script>
 </body>
 
 </html>
